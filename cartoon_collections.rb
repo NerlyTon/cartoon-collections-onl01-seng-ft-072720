@@ -20,6 +20,6 @@ def find_the_cheese(cheese_types)
   cheese_types.select do |cheese|
    cheese.include?("cheddar")
   end
-  cheese_types.join
+  cheese_types.join(" ")
 end
 
