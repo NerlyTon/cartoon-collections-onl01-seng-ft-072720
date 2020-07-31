@@ -20,5 +20,6 @@ def find_the_cheese(array)
   array.find do |arr| 
     arr.include?(" ")
   end
+  return find_the_cheese
 end
 
